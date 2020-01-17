@@ -72,7 +72,7 @@ p {
     margin: 0 auto;
 }
 
-/*section 1 nav styling*/
+/*section 1 logo and nav styling added here */
 .section1{
     display: flex;
     flex-direction: row;
@@ -94,67 +94,61 @@ nav a{
     align-items: flex-end;
 }
 
-/*section 3 about details styling */
+/*banner pic*/
 
-.section3{
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-bottom: 1px dashed black;
+#bannerimg{
+    width: 100%;
+}
+/*contact form styling*/
+body { background: white; }
+form { max-width:50%; margin:5% auto;}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
 }
 
-/*section 4 flex boxes row wrap styling*/
+.feedback-input:focus { border:2px solid #CC4949; }
 
-.section4{
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-around;
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
 }
 
-.section4box{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    width: 48%;
-    border-bottom: 1px dashed black;
-    padding-top: 4%;
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
 }
+[type="submit"]:hover { background:#CC4949; }
 
-.section4box h2{
-    padding: 3% 0;
-}
-
-.section4box p{
-    padding: 1% 0;
-}
-
-.section4box button{
-    padding: 2% 0;
-    margin: 3% 0;
-    width: 25%;
-    border: solid black 1px;
-    border-radius: .30rem;
-}
-/* sprint added hover effects on buttons */
-
-.section4box button:hover{
-    background: aquamarine;
-}
-
-/*section5 lets work together styling */
-
-.section5{
-    display:flex;
-    flex-direction: column;
-    padding: 5% 0;
-}
 
 /*footer styling*/
 footer {
     width: 100%;
-    display: flex;
     background: black;
 }
 

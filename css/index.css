@@ -179,6 +179,17 @@ nav a{
     background: dodgerblue;
 }
 
+/* spring hover effect over boxes to change background color */
+
+.middle-content .boxes:hover{
+    background: black;
+}
+
+.middle-content .boxes .box:hover{
+    color: black;
+    background: aquamarine!important; 
+}
+
 
 .bottom-content {
     display: flex;
