@@ -46,9 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* added max-width 100% */
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
@@ -71,7 +72,31 @@ p {
     margin: 0 auto;
 }
 
+/*section 1 logo and nav styling added here */
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+
 .top-content {
+    padding: 1% 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -111,6 +136,49 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/*added box colors*/
+
+#box1{
+    background: teal;
+}
+
+#box2{
+    background: yellow;
+}
+
+#box3{
+    background: cadetblue;
+}
+
+#box4{
+    background: tomato;
+}
+
+#box5{
+    background: crimson;
+}
+
+#box6{
+    background: forestgreen;
+}
+
+#box7{
+    background: darkviolet;
+}
+
+#box8{
+    background: hotpink;
+}
+
+#box9{
+    background: indigo;
+}
+
+#box10{
+    background: cornflowerblue;
+}
+
 
 .bottom-content {
     display: flex;
