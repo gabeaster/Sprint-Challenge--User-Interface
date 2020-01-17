@@ -100,6 +100,45 @@ nav a{
     width: 100%;
 }
 
+/*section 3 flex boxes row wrap styling*/
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.section3box{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    border-bottom: 1px dashed black;
+    padding-top: 4%;
+}
+
+.section3box h2{
+    padding: 3% 0;
+}
+
+.section3box p{
+    padding: 1% 0;
+}
+
+.section3box button{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0;
+    margin: 3% 0;
+    width: 25%;
+    border: solid black 1px;
+    border-radius: .30rem;
+}
+
+.section3box button:hover{
+    background: aquamarine;
+}
 /*footer styling*/
 footer {
     width: 100%;
