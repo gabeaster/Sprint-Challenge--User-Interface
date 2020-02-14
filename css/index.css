@@ -16,9 +16,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/*margin: 0;
 	padding: 0;
 	border: 0;
+    
+    commented out these items*/
+
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +52,8 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
+    /*added max-width*/
 }
 
 html, body {
@@ -69,6 +74,31 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+/*header styling here*/
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px green solid;
+}
+
+nav{
+    display:flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border: 1px red solid;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    border: 1px blue solid;
+}
+
+#roadBanner{
+    margin: 3% 0;
 }
 
 .top-content {
