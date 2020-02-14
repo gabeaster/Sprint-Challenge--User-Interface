@@ -80,7 +80,6 @@ p {
 header{
     display: flex;
     justify-content: space-between;
-    border: 1px green solid;
 }
 
 nav{
@@ -88,16 +87,15 @@ nav{
     width: 80%;
     justify-content: space-evenly;
     align-items: flex-end;
-    border: 1px red solid;
 }
 
 nav a{
     color: black;
     text-decoration: none;
-    border: 1px blue solid;
 }
 
-#roadBanner{
+/*styling for banner images*/
+.jumbo{
     margin: 3% 0;
 }
 
@@ -141,7 +139,7 @@ nav a{
     align-items: center;
     justify-content: center;
 }
-
+/*10 boxes background styling*/
 #box1{
     background-color: teal;
 }
@@ -214,3 +212,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About.html Specific Styling here*/
+
+.about{
+   border-bottom: 1px dashed black; 
+   padding: 0 2%;
+}
+
