@@ -115,13 +115,13 @@ nav a{
 
 .middle-content {
     margin-bottom: 20px;
+}
+
+.indexboxes{
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
+/*removed middle-content h2 styling*/
 
 .middle-content .boxes {
     display: flex;
@@ -215,8 +215,31 @@ footer nav a {
 
 /*About.html Specific Styling here*/
 
-.about{
-   border-bottom: 1px dashed black; 
+.aboutSection{
    padding: 0 2%;
 }
+
+/*about styling: middle-content styling*/
+
+.about{
+    padding: 0 2%;
+}
+
+.aboutBoxes{
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutBoxes button{
+    width: 30%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+
 
