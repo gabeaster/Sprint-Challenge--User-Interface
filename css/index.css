@@ -217,6 +217,7 @@ footer nav a {
 
 .aboutSection{
    padding: 0 2%;
+   border-bottom: 1px dashed black;
 }
 
 /*about styling: middle-content styling*/
@@ -239,6 +240,13 @@ footer nav a {
     padding: 2% 0;
     border: 2px black solid;
     border-radius: 10px;
+}
+
+/*about bottom content styling here*/
+
+.aboutBottomContent{
+    width: 90%;
+    margin: 0 5% 5%;
 }
 
 
