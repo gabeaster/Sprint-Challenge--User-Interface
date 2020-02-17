@@ -16,9 +16,12 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/*margin: 0;
 	padding: 0;
 	border: 0;
+    
+    commented out these items*/
+
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +52,8 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width:100%;
+    /*added max-width*/
 }
 
 html, body {
@@ -71,6 +76,29 @@ p {
     margin: 0 auto;
 }
 
+/*header styling here*/
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display:flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+/*styling for banner images*/
+.jumbo{
+    margin: 3% 0;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -87,13 +115,13 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
+}
+
+.indexboxes{
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
+/*removed middle-content h2 styling*/
 
 .middle-content .boxes {
     display: flex;
@@ -110,6 +138,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/*10 boxes background styling*/
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetBlue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +212,68 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*About.html Specific Styling here*/
+
+.aboutSection{
+   padding: 0 2%;
+   border-bottom: 1px dashed black;
+}
+
+/*about styling: middle-content styling*/
+
+.about{
+    padding: 0 2%;
+}
+
+.aboutBoxes{
+    width: 45%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutBoxes button{
+    width: 30%;
+    margin-bottom: 5%;
+    padding: 2% 0;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+/*about bottom content styling here*/
+
+.aboutBottomContent{
+    width: 90%;
+    margin: 0 5% 5%;
+}
+
+header nav:hover{
+    background-color: lightgrey;
+}
+
+nav a:hover{
+    color: lightsteelblue;
+}
+
+/*contact styling here*/
+#jumboContact{
+    max-height: 80%;
+    margin: 5% 0;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 5% 0;
+}
+
+
+
